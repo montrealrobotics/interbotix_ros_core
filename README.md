@@ -1,7 +1,4 @@
-![core_banner](images/core_banner.png)
-
 ## Overview
-![core_repo_structure](images/core_repo_structure.png)
 Welcome to the *interbotix_ros_core* repository! This repo contains custom ROS Wrappers around the various types of actuators that we use at [Interbotix](https://www.trossenrobotics.com/). These ROS packages (one for each actuator) then provide the building blocks necessary to program our robots - no matter if they are 6-dof arms, pan-tilt mechanisms, hexapods, rovers, or a combination thereof (as the figure above should make clear).
 
 Links to the various repositories that build up from this one include:
@@ -41,7 +38,6 @@ GitHub Landing Page: Explains repository structure and contains a single directo
 As shown above, there are three main levels to this repository. Over time, the repo will grow to include more types of actuators.
 
 ## Code Structure
-![core_irros_structure](images/core_irros_structure.png)
 To make the lower-level actuator ROS wrappers able to be easily integrated into our higher-level code, we have developed an intuitive approach called the **I**nterbotix **R**esearch **R**obotics **O**pen **S**tandard (IRROS). Every repository that builds on top of this one contains a chart similar to the above generic one - but filled in with the specifics for each robot. There are five main layers that are described below.
 
 ##### Hardware Layer

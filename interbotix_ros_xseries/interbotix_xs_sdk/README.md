@@ -1,5 +1,4 @@
 # Interbotix X-Series SDK ROS Package
-![xs_sdk_banner](images/xs_sdk_banner.png)
 
 ## Overview
 This package contains two driver nodes responsible for controlling the many X-Series platforms sold by Interbotix. Descriptions for both of them are below.
